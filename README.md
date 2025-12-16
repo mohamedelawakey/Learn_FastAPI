@@ -53,8 +53,5 @@ uvicorn PathParameters:app --reload
 - [FILESTRUCTURE.md](FILESTRUCTURE.md) — File Structure To Know The Structure
 - [.gitignore](.gitignore) — ignore caches/venv as needed.
 - [main.py](main.py) — minimal FastAPI app with two routes: / and /about.
-- [PathParameters.py](PathParameters.py) — shows path parameters and nested routes:
-    * /, /blog/unpublished, /blog/{id_blog}, /blog/{id_blog}/comments.
-
 
 ---
